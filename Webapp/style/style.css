@@ -1,0 +1,88 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap'); /* Font untuk judul */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@500&display=swap'); /* Font untuk subjudul */
+
+/* Style Body */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style Header */
+.stApp > header {
+    background-color: transparent;
+}
+
+/* Style Container */
+.stApp {
+    margin: auto;
+    overflow: auto;
+    background: #F7F1F0;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+/* Style Title */
+h1, h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #A15C38;
+  
+    padding-bottom: 40px;
+}
+
+/* Style Heading */
+h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #8D6E63;
+    padding-bottom: 30px;
+    
+}
+
+/* Style Markdown */
+.stMarkdown p {
+    text-align: justify;
+}
+
+/* Style Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #A15C38;
+    color: #F7F1F0;
+    text-align: right;
+    padding: 5px;
+    font-size: small;
+}
+
+/* Style Button */
+.stButton>button {
+    background-color: #A15C38;
+    color: #F7F1F0;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Style Button Hover */
+.stButton>button:hover {
+    background-color: #C3A6A0;
+    color: #F7F1F0;
+}
+
+/* Style Logo */
+.stLogo {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
