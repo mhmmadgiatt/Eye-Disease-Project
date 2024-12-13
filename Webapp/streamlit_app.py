@@ -6,32 +6,32 @@ def load_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Call Fungsi load_css
-load_css("Webapp/style/style.css")
+load_css("style.css")
 
 # Setup Page
 home_page = st.Page(
-    "Webapp/views/home.py",
+    "home.py",
     title="Home",
     icon=":material/home:",
     default=True,
 )
 model_1_page = st.Page(
-    "Webapp/views/test_resnet50.py",
+    "test_resnet50.py",
     title="Test using ResNet50",
     icon=":material/mystery:",
 )
 model_2_page = st.Page(
-    "Webapp/views/test_vgg16.py",
+    "test_vgg16.py",
     title="Test using VGG16",
     icon=":material/symptoms:",
 )
 info_resnet50 = st.Page(
-    "Webapp/views/about_resnet50.py",
+    "about_resnet50.py",
     title="About Model Resnet50",
     icon=":material/info:",
 )
 info_vgg16 = st.Page(
-    "Webapp/views/about_vgg16.py",
+    "about_vgg16.py",
     title="About Model VGG16",
     icon=":material/info:",
 )
@@ -46,7 +46,7 @@ pg = st.navigation(
 )
 
 # Logo EyeCheck.AI
-st.logo("Webapp/assets/eye_check.png")
+st.logo("eye_check.png")
 
 # Run Page
 pg.run()

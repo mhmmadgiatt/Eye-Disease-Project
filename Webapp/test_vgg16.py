@@ -6,10 +6,10 @@ import numpy as np
 from PIL import Image
 
 # Load the trained VGG16 model for disease prediction
-vgg16_model = load_model("D:/Skripsi - Tugas Akhir/Skripsi-Coding/model_VGG16.h5")
+vgg16_model = load_model("model_VGG16.h5")
 
 # Load the InceptionV3 model for eye image verification
-inception_model = load_model("D:/Skripsi - Tugas Akhir/Skripsi-Coding/model_Inception_V3.h5")
+inception_model = load_model("model_Inception_V3.h5")
 
 # Define classes and descriptions for VGG16
 classes = ["Bulging Eyes", "Cataracts", "Crossed Eyes", "Normal Eyes", "Uveitis"]
@@ -53,7 +53,7 @@ def is_eye_image(image, threshold=0.5):
 st.title("Prediksi Penyakit Mata dengan VGG16")
 
 # Show example image for uploading instructions
-st.image("assets/petunjuk_gambar.png", caption="Contoh upload gambar mata yang sesuai", use_column_width=True)
+st.image("petunjuk_gambar.png", caption="Contoh upload gambar mata yang sesuai", use_column_width=True)
 
 uploaded_image = st.file_uploader("Silahkan upload gambar mata anda 😊", type=["jpg", "png", "jpeg"])
 

@@ -14,7 +14,7 @@ st.markdown("""
     - Uveitis
 """)
 
-st.image("assets/jenis_penyakit_mata.jpg", caption="Fokus Deteksi Jenis Penyakit Mata", use_column_width=True)
+st.image("jenis_penyakit_mata.jpg", caption="Fokus Deteksi Jenis Penyakit Mata", use_column_width=True)
 
 st.markdown("""
     **Tujuan Aplikasi**
@@ -34,7 +34,7 @@ st.markdown("""
     Kesehatan mata memiliki peran vital dalam menjaga kualitas hidup kita sehari-hari. Gangguan pada penglihatan dapat memengaruhi berbagai aspek kehidupan, seperti kemampuan untuk bekerja, belajar, dan menjalani aktivitas sehari-hari secara mandiri. Deteksi dini menjadi kunci utama dalam menjaga kesehatan mata dan mencegah risiko kebutaan yang serius. Menurut data dari Kementerian Kesehatan, lebih dari 80% kasus kebutaan sebenarnya bisa dicegah jika penyakit mata dapat terdeteksi lebih awal dan ditangani dengan tepat.
 """)
 
-st.image("assets/mata_sehat.jpg", caption="Gambaran Mata Sehat", use_column_width=True)
+st.image("mata_sehat.jpg", caption="Gambaran Mata Sehat", use_column_width=True)
 
 st.markdown("""
     **Eye👁️Check.AI** hadir sebagai solusi inovatif untuk membantu deteksi dini beberapa penyakit mata. Aplikasi ini sangat berguna bagi mereka yang memiliki keterbatasan akses ke dokter spesialis mata, memberikan kemudahan bagi pengguna di daerah terpencil atau yang menghadapi kendala biaya dan waktu dalam melakukan pemeriksaan langsung. Selain itu, EyeCheck.AI turut meningkatkan kesadaran masyarakat akan pentingnya kesehatan mata, mengingat beberapa penyakit mata tidak menunjukkan gejala signifikan pada tahap awal. Dengan menggunakan teknologi berbasis deep learning, EyeCheck.AI memungkinkan Anda untuk lebih peduli dan proaktif terhadap kesehatan mata Anda.
