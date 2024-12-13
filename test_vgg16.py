@@ -53,7 +53,7 @@ def is_eye_image(image, threshold=0.5):
 st.title("Prediksi Penyakit Mata dengan VGG16")
 
 # Show example image for uploading instructions
-st.image("petunjuk_gambar.png", caption="Contoh upload gambar mata yang sesuai", use_column_width=True)
+st.image("petunjuk_gambar.png", caption="Contoh upload gambar mata yang sesuai", use_container_width=True)
 
 uploaded_image = st.file_uploader("Silahkan upload gambar mata anda 😊", type=["jpg", "png", "jpeg"])
 
@@ -67,7 +67,7 @@ if uploaded_image is not None:
         
         with col2:
             # Preview gambar di tengah dengan ukuran terkontrol
-            st.image(image, caption="Gambar telah sesuai, Silahkan melanjutkan proses", width=350, use_column_width=False)
+            st.image(image, caption="Gambar telah sesuai, Silahkan melanjutkan proses", width=350, use_container_width=False)
         
         # Preprocess the image and predict disease if it is an eye
         processed_image = preprocess_for_vgg16(image)

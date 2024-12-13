@@ -31,16 +31,16 @@ st.markdown("""
 """)
 
 st.subheader("Grafik Training & Validation Accuracy VGG16")
-st.image("vgg16_training_validation_accuracy.png", caption="Grafik Training & Validation Accuracy VGG16", use_column_width=True)
+st.image("vgg16_training_validation_accuracy.png", caption="Grafik Training & Validation Accuracy VGG16", use_container_width=True)
 
 st.subheader("Grafik Training & Validation Loss VGG16")
-st.image("vgg16_training_validation_loss.png", caption="Grafik Training & Validation Loss VGG16", use_column_width=True)
+st.image("vgg16_training_validation_loss.png", caption="Grafik Training & Validation Loss VGG16", use_container_width=True)
 
 st.subheader("Confussion Matrix VGG16")
-st.image("vgg16_final_confusion_matrix.png", caption="Confussion Matrix VGG16", use_column_width=True)
+st.image("vgg16_final_confusion_matrix.png", caption="Confussion Matrix VGG16", use_container_width=True)
 
 st.subheader("Classification Report VGG16")
-st.image("classification_vgg16.png", caption="Classification Report VGG16", use_column_width=True)
+st.image("classification_vgg16.png", caption="Classification Report VGG16", use_container_width=True)
 
 # Footer
 def footer():

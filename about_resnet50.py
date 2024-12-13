@@ -33,16 +33,16 @@ st.markdown("""
 """)
 
 st.subheader("Grafik Training & Validation Accuracy ResNet50")
-st.image("resnet_training_validation_accuracy.png", caption="Grafik Training & Validation Accuracy ResNet50", use_column_width=True)
+st.image("resnet_training_validation_accuracy.png", caption="Grafik Training & Validation Accuracy ResNet50", use_container_width=True)
 
 st.subheader("Grafik Training & Validation Loss Resnet50")
-st.image("resnet_training_validation_loss.png", caption="Grafik Training & Validation Loss ResNet50", use_column_width=True)
+st.image("resnet_training_validation_loss.png", caption="Grafik Training & Validation Loss ResNet50", use_container_width=True)
 
 st.subheader("Confussion Matrix ResNet50")
-st.image("resnet_final_confusion_matrix.png", caption="Confussion Matrix ResNet50", use_column_width=True)
+st.image("resnet_final_confusion_matrix.png", caption="Confussion Matrix ResNet50", use_container_width=True)
 
 st.subheader("Classification Report ResNet50")
-st.image("classification_resnet50.png", caption="Classification Report ResNet50", use_column_width=True)
+st.image("classification_resnet50.png", caption="Classification Report ResNet50", use_container_width=True)
 
 # Footer
 def footer():
