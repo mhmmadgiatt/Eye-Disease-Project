@@ -6,7 +6,7 @@ def load_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Call Fungsi load_css
-load_css("style/style.css")
+load_css("Webapp/style/style.css")
 
 # Setup Page
 home_page = st.Page(
