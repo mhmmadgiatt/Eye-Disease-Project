@@ -10,28 +10,28 @@ load_css("Webapp/style/style.css")
 
 # Setup Page
 home_page = st.Page(
-    "views/home.py",
+    "Webapp/views/home.py",
     title="Home",
     icon=":material/home:",
     default=True,
 )
 model_1_page = st.Page(
-    "views/test_resnet50.py",
+    "Webapp/views/test_resnet50.py",
     title="Test using ResNet50",
     icon=":material/mystery:",
 )
 model_2_page = st.Page(
-    "views/test_vgg16.py",
+    "Webapp/views/test_vgg16.py",
     title="Test using VGG16",
     icon=":material/symptoms:",
 )
 info_resnet50 = st.Page(
-    "views/about_resnet50.py",
+    "Webapp/views/about_resnet50.py",
     title="About Model Resnet50",
     icon=":material/info:",
 )
 info_vgg16 = st.Page(
-    "views/about_vgg16.py",
+    "Webapp/views/about_vgg16.py",
     title="About Model VGG16",
     icon=":material/info:",
 )
@@ -46,7 +46,7 @@ pg = st.navigation(
 )
 
 # Logo EyeCheck.AI
-st.logo("assets/eye_check.png")
+st.logo("Webapp/assets/eye_check.png")
 
 # Run Page
 pg.run()
